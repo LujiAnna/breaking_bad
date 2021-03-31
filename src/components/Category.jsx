@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Title = styled.h1`
     height: 18px;
     width: 209px;
-    color: #003D67;
+    color: #5e1c47;
     margin: 0 auto;
     /* margin-top: 50px; */
     margin-bottom: 60px;

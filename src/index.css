@@ -39,7 +39,7 @@ body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     /* layer with #f2f2f2, center the cover */
-    background-image: linear-gradient(rgba(0, 61, 102, 0.7), rgba(0, 61, 102, 0.7)), url('./assets/bcg_img.png');
+    background-image: linear-gradient(rgba(0, 102, 51, 0.7), rgba(0, 102, 51, 0.7)), url('./assets/bcg_img.png');
     background-size: cover;
     background-position: center;
     display: flex;

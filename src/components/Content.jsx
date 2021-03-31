@@ -27,12 +27,12 @@ flex-wrap: wrap;
 `
 
 const Section = styled.div `
-background-color:#FFE885;
+background-color:#1c1c1c;
 display: flex;
 flex-direction: column;
 justify-content: center;
 /* vertical-align: center; */
-color: #003D67;
+color: #5e1c47;
 border-radius: 5px;
 border-top-right-radius: 0px;
 border-bottom-right-radius: 0px;
