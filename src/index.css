@@ -1,0 +1,53 @@
+/* ---------------------------------- */
+
+
+/* BASIC SET UP */
+
+
+/* ---------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #5e1c47;
+    /* font used: futura, 500,700 normal */
+    /* futura alternatives: didac-regular 400, Hind-light, regular, medium, semi bold, bold  */
+    /* font heading used: ConduitITCStd, 300, normal */
+    font-family: 'futura', 'Didact Gothic', 'Nunito Sans', 'Hind', sans-serif;
+    /* add font conduit in folder */
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    /* font-size: 3.2vw; */
+    /* font-size: calc(0.5em + 1vw); */
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+body {
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    /* layer with #f2f2f2, center the cover */
+    background-image: linear-gradient(rgba(0, 61, 102, 0.7), rgba(0, 61, 102, 0.7)), url('./assets/bcg_img.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #ff9e91;
+    height: 100vh;
+    line-height: 140%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
